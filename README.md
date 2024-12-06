@@ -29,8 +29,8 @@ CC1101 max. digital voltage level = 3.3V (not 5V tolerant)
 ```
 CC1101<->Arduino
 
-Vdd    -    3.3V
-SI     -    MOSI (11)
+Vdd    -    3.3V      
+SI     -    MOSI (11) 
 SO     -    MISO (12)
 CS     -    SS   (10)
 SCLK   -    SCK  (13)
@@ -41,14 +41,14 @@ GND    -    GND
 
 CC1101<->Raspi
 
-Vdd    -    3.3V (P1-01)
-SI     -    MOSI (P1-19)
-SO     -    MISO (P1-21)
-CS     -    SS   (P1-24)
-SCLK   -    SCK  (P1-23)
-GDO2   -    GPIO (P1-22)
-GDO0   -    not used in this demo
-GND    -    P1-25
+Vdd    -    3.3V (P1-01) - RED
+SI     -    MOSI (P1-19) - BRN
+SO     -    MISO (P1-21) - WHT
+CS     -    SS   (P1-24) - YEL
+SCLK   -    SCK  (P1-23) - ORG
+GDO2   -    GPIO (P1-22) - GRN
+GDO0   -    not used in this demo - BLU
+GND    -    P1-25        - BLK
 ```
 
 General description of RF packet
